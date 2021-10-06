@@ -1,0 +1,51 @@
+body{
+    margin-top:20px;
+    background:#f1f1f1;
+}
+
+.task-list {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 30px ;
+}
+
+.task-list li {
+  margin-bottom: 30px;
+  padding-left: 55px;
+  position: relative;
+}
+.task-list li:last-child {
+  margin-bottom: 0;
+}
+.task-list li .task-icon {
+  position: absolute;
+  left: 22px;
+  top: 13px;
+  border-radius: 50%;
+  padding: 2px;
+  width: 17px;
+  height: 17px;
+  z-index: 2;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 30px;
+}
+
+
+.card .card-block,
+.card .card-body {
+  padding: 30px 25px;
+}
+
+
+.bg-c-green {
+    background: green;
+}
+
+h6 {
+    font-size: 14px;
+}

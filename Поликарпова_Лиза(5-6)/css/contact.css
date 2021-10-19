@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.scrollmenu {
+    overflow: auto;
+    text-align: right;
+}
+
+
+.scrollmenu a {
+    display: inline-block;
+    color:black;
+    text-align: right ;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    text-align: right;
+    text-decoration: underline;
+    background-color: #4CAF50;
+}
+
+.contact-container{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 117px;
+}
+.content-header{
+    display: flex;
+    flex-direction: column;
+}
+.content-header_text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 31px;
+    letter-spacing: 0.896px;
+    color: #373737;
+    opacity: 0.8;
+    width: 735px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-header_img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+}
+.content-header-empoloyee{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #373737;
+}
+
+.content-header-empoloyee_job{
+    opacity: 0.5;
+}
+.content-header-employee_stars{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.content-header-employee_stars > img{
+    height: 50px;
+}
+
+.content-rectangle{
+    display: flex;
+    margin-top: 130px;
+}
+.content-rectangle-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+background: #FBFBFB;
+height: 300px;
+width: 50vw;
+}
+
+.content-rectangle-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #70BD59;
+    height: 300px;
+    width: 50vw;
+}
+.white{
+    color: #FFF !important;
+}
+.content-rectangle_title{
+    margin-top: 20px;
+}
+.content-rectangle_desc{
+    margin-top: 22px;
+    opacity: 0.7;
+}
+.content-footer{
+    background: #2E2E2E;
+    padding: 142px 0 82px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-footer_contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.content-footer_contact{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+display: flex;
+    opacity: 0.5;
+    color: #FFFFFF;
+   
+}
+.content-footer_social{
+    display: flex;
+    margin-top: 30px;
+}
+.content-footer_social > img{
+    height: 60px;
+}

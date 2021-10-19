@@ -1,0 +1,31 @@
+.center{
+    margin-top: 20%;
+}
+
+body { background: url('../картинки/20.jpg');
+     background-repeat: no-repeat; background-size: cover; height: 100vh;
+     font-family: "Oswald", sans-serif;}
+
+.scrollmenu {
+    overflow: auto;
+    text-align: right;
+}
+
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: right ;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    text-align: right;
+    text-decoration: underline;
+    background-color: #4CAF50;
+}
+
+.text{
+    top: 50%;
+}

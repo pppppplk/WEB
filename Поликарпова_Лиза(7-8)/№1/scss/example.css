@@ -1,0 +1,31 @@
+.example_container .title, .example_container .black-title {
+  color: red;
+  font-size: 24px;
+}
+
+.example_container .big-red-square {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.example_container .small-blue-square {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.example_container .black-title {
+  color: #000;
+}
+
+.example_container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=example.css.map */

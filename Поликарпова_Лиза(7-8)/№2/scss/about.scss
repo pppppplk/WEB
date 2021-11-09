@@ -1,0 +1,93 @@
+h2 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+.about {
+  &_scrollmenu {
+    overflow: auto;
+    text-align: right;
+    a {
+      display: inline-block;
+      color: black;
+      text-align: right;
+      padding: 14px;
+      text-decoration: none;
+    }
+    a:hover {
+      text-align: right;
+      text-decoration: underline;
+      background-color: #4caf50;
+    }
+  }
+  &_image {
+    background-image: url("../картинки/4.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 559px;
+    width: 1182px;
+  }
+  &_left-text {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    padding-top: 96px;
+    padding-left: 300px;
+    height: 400px;
+  }
+  &_w280 {
+    width: 280px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.26px;
+
+    color: #5b5858;
+  }
+  &_bold {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  &_desc-ab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 57px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 2.688px;
+  
+    color: #504e4e;
+  }
+  &_footer-ab {
+    width: 280px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.26px;
+  
+    color: #5b5858;
+    margin-top: auto;
+    margin-left: 500px;
+  }
+}
+
+
+
+

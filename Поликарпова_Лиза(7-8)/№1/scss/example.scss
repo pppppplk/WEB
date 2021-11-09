@@ -1,0 +1,36 @@
+$title-color: red;
+$title-size: 24px;
+
+@mixin square($size, $color) {  //@mixin - функция 
+  width: $size;
+  height: $size;
+  background-color: $color;
+}
+
+.example {
+  &_container {
+    .title {
+      color: $title-color;
+      font-size: 24px;
+    }
+
+    .big-red-square {
+      @include square(100px, green); 
+    }
+    .small-blue-square {
+      @include square(20px, blue);
+    }
+
+    .black-title {
+      @extend .title;  // наследует все свойства класса title
+
+      color: #000;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+}
